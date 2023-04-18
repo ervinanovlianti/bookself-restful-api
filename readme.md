@@ -1,19 +1,46 @@
-# BOOKSELF Restful API 
+# BOOKSHELF Restful API 
 
-Submission Project for Backend-Learning Path by [Dicoding](https://www.dicoding.com/) 
-Restful API for bookself app with node js using Hapi
-Equipped with functionality to add (create), show (read), edit (update), and delete (delete) books under various conditions. As well as testing using postman.
+Submission Project for Backend-Learning Path by [Dicoding Academy](https://www.dicoding.com/) merupakan proyek akhir berupa praktik siswa berbentuk Bookshelf API berupa membuat Back-End dari aplikasi catatan yang memiliki fungsi Create, Read, Update, dan Delete. Dengan Web Service menggunakan Node.js
 
-## install all dependencies
-```bash
-npm i
+## Teknologi yang Digunakan
+- Bahasa Pemrograman: Javascript, Node.js
+- Framework: HapiJS
+- Alat lain: Nanoid (generator ID)
+
+## Cara Menggunakan
+### Persyaratan Sistem
+node.js  v16.9.1
+@hapi/hapi version : "^21.3.0"
+nanoid version : "^3.3.4"
+nodemon version : "^2.0.21"
+
+### Instalasi
+1. Unduh atau clone proyek ini ke direktori lokal Anda.
+2. Jalankan perintah ``` npm install ``` untuk menginstal semua dependensi yang dibutuhkan.
+
+### Menjalankan Aplikasi
+Jalankan perintah ``` npm run start-dev ``` untuk memulai aplikasi di lingkungan development. Aplikasi akan berjalan di port ``` http://localhost:9000 ```
+
+### Fitur 
+- Add Book
+
+- Show All Books
+- Show Book by Id
+- Update Book by Id
+- Delete Book by Id
+
+### Struktur Proyek
+```
+├── src
+    ├── books.js
+    ├── handler.js
+    ├── routes.js
+    └── server.js
+├── eslint.json
+├── package-lock.json
+├── package.json
+└── readme.md
 ```
 
-## run restful api in development environment
-```bash
-npm run start-dev
-```
-Then the API will run on the port : 9000 and can be accessed 
-```bash
-http://localhost:9000/books
-```
+### Kontak
+Anda dapat menghubungi saya melalui email : ervinanovliantii@gmail.com atau melalui [Linkedin](https://www.linkedin.com/in/ervina-novlianti/).
