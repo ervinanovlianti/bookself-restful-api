@@ -25,9 +25,13 @@ Jalankan perintah ``` npm run start-dev ``` untuk memulai aplikasi di lingkungan
 - Add Book
 ![Add Book](img-doc/Post-Book.jpg)
 - Show All Books
+![Show All Books](img-doc/Get All Books.jpg)
 - Show Book by Id
+![Show Book By Id](img-doc/Get Book By Id.jpg)
 - Update Book by Id
+![Update Book By Id](img-doc/Edit Book.jpg)
 - Delete Book by Id
+![Delete Book](img-doc/Delete Book.jpg)
 
 ### Struktur Proyek
 ```
