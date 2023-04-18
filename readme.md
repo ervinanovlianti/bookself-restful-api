@@ -9,10 +9,10 @@ Submission Project for Backend-Learning Path by [Dicoding Academy](https://www.d
 
 ## Cara Menggunakan
 ### Persyaratan Sistem
-node.js  v16.9.1
-@hapi/hapi version : "^21.3.0"
-nanoid version : "^3.3.4"
-nodemon version : "^2.0.21"
+- node.js  v16.9.1
+- @hapi/hapi version : "^21.3.0"
+- nanoid version : "^3.3.4"
+- nodemon version : "^2.0.21"
 
 ### Instalasi
 1. Unduh atau clone proyek ini ke direktori lokal Anda.
