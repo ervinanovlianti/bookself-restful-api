@@ -23,7 +23,7 @@ Jalankan perintah ``` npm run start-dev ``` untuk memulai aplikasi di lingkungan
 
 ### Fitur 
 - Add Book
-![Add Book](img-doct/Post Books.jpg)
+![Add Book](img-doc/Post-Book.jpg)
 - Show All Books
 - Show Book by Id
 - Update Book by Id
