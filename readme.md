@@ -12,7 +12,7 @@ This is a RESTFULL API for managing a bookshelf.
 ### Installation
 1. Clone the repository
 
-``` git clone https://github.com/ervinanovlianti/bookself-restful-api.git ```
+`git clone https://github.com/ervinanovlianti/bookself-restful-api.git `
 
 2. Install dependencies
 ``` cd bookself ```
