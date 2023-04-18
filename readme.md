@@ -1,39 +1,52 @@
 # BOOKSHELF Restful API 
 
-Submission Project for Backend-Learning Path by [Dicoding Academy](https://www.dicoding.com/) merupakan proyek akhir berupa praktik siswa berbentuk Bookshelf API berupa membuat Back-End dari aplikasi catatan yang memiliki fungsi Create, Read, Update, dan Delete. Dengan Web Service menggunakan Node.js
+This is a RESTFULL API for managing a bookshelf.
 
-## Teknologi yang Digunakan
-- Bahasa Pemrograman: Javascript, Node.js
-- Framework: HapiJS
-- Alat lain: Nanoid (generator ID)
-
-## Cara Menggunakan
-### Persyaratan Sistem
+## How To Use
+### Build With
 - node.js  v16.9.1
 - @hapi/hapi version : "^21.3.0"
 - nanoid version : "^3.3.4"
 - nodemon version : "^2.0.21"
 
-### Instalasi
-1. Unduh atau clone proyek ini ke direktori lokal Anda.
-2. Jalankan perintah ``` npm install ``` untuk menginstal semua dependensi yang dibutuhkan.
+### Installation
+1. Clone the repository
 
-### Menjalankan Aplikasi
-Jalankan perintah ``` npm run start-dev ``` untuk memulai aplikasi di lingkungan development. Aplikasi akan berjalan di port ``` http://localhost:9000 ```
+``` git clone https://github.com/ervinanovlianti/bookself-restful-api.git ```
 
-### Fitur 
-- Add Book
-![Add Book](img-doc/Post-Book.jpg)
-- Show All Books
+2. Install dependencies
+``` cd bookself ```
+``` npm install ```
+
+3. Start the server
+``` npm run start-dev ``` 
+Server will running at port ``` http://localhost:9000 ```
+
+### Usage
+Once the server is running, you can test the API using an HTTP client like Postman.
+
+## API Endpoints
+### GET /books
+Returns a list of all books. <br>
 ![Show All Books](img-doc/Get-All-Books.jpg)
-- Show Book by Id
+
+### POST /books
+Adds a new book. <br>
+![Add Book](img-doc/Post-Book.jpg)
+
+### GET /books/:id
+Returns a single book with the specified ID. <br>
 ![Show Book By Id](img-doc/Get-Book-By-Id.jpg)
-- Update Book by Id
+
+### PUT /books/:id
+Updates a book with the specified ID. <br>
 ![Update Book By Id](img-doc/Edit-Book.jpg)
-- Delete Book by Id
+
+### DELETE /books/:id
+Deletes a book with the specified ID. <br>
 ![Delete Book](img-doc/Delete-Book.jpg)
 
-### Struktur Proyek
+## Folder Structure
 ```
 ├── src
     ├── books.js
@@ -46,5 +59,5 @@ Jalankan perintah ``` npm run start-dev ``` untuk memulai aplikasi di lingkungan
 └── readme.md
 ```
 
-### Kontak
-Anda dapat menghubungi saya melalui email : ervinanovliantii@gmail.com atau melalui [Linkedin](https://www.linkedin.com/in/ervina-novlianti/).
+## Contact
+You can contact me by e-mail: ervinanovliantii@gmail.com or [Linkedin](https://www.linkedin.com/in/ervina-novlianti/).
