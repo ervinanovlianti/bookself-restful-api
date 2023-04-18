@@ -33,23 +33,24 @@ Once the server is running, you can test the API using an HTTP client like Postm
 
 ## API Endpoints
 ### GET /books
-Returns a list of all books. <br>
+Returns a list of all books.
+
 ![Show All Books](img-doc/Get-All-Books.jpg)
 
 ### POST /books
-Adds a new book. <br>
+Adds a new book. 
 ![Add Book](img-doc/Post-Book.jpg)
 
 ### GET /books/:id
-Returns a single book with the specified ID. <br>
+Returns a single book with the specified ID. 
 ![Show Book By Id](img-doc/Get-Book-By-Id.jpg)
 
 ### PUT /books/:id
-Updates a book with the specified ID. <br>
+Updates a book with the specified ID. 
 ![Update Book By Id](img-doc/Edit-Book.jpg)
 
 ### DELETE /books/:id
-Deletes a book with the specified ID. <br>
+Deletes a book with the specified ID. 
 ![Delete Book](img-doc/Delete-Book.jpg)
 
 ## Folder Structure
