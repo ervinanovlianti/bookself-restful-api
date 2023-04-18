@@ -12,14 +12,20 @@ This is a RESTFULL API for managing a bookshelf.
 ### Installation
 1. Clone the repository
 
-`git clone https://github.com/ervinanovlianti/bookself-restful-api.git `
+```
+git clone https://github.com/ervinanovlianti/bookself-restful-api.git
+```
 
 2. Install dependencies
-``` cd bookself ```
-``` npm install ```
+``` 
+cd bookself 
+npm install 
+```
 
 3. Start the server
-``` npm run start-dev ``` 
+``` 
+npm run start-dev 
+``` 
 Server will running at port ``` http://localhost:9000 ```
 
 ### Usage
